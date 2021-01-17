@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap');
+
+body {
+  padding: 0;
+  offset: none;
+  overflow: hidden;
+  background-color: #1d1d1d;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+span {
+  color: #f0f0f0;
+  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
