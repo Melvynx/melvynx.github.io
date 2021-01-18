@@ -1,5 +1,6 @@
 {
   "name": "svelte-app",
+  "homepage": "http://melvynx.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
