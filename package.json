@@ -1,13 +1,14 @@
 {
   "name": "svelte-app",
   "homepage": "http://melvynx.github.io/",
+  "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "HOST=0.0.0.0 rollup -c -w",
     "start": "sirv public",
     "predeploy": "yarn build",
-    "deploy": "npx gh-pages -d public"
+    "deploy": "npx gh-pages -d ./public"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^16.0.0",
