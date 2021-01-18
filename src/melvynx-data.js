@@ -11,7 +11,7 @@ export const githubpages = [
     title: 'Tools VueJS',
     description: 'Small VueJS application that includes a timer and other stuff.',
     image: 'images/tools-vuejs.png',
-    url: 'https://melvynx.github.io/vuejstools',
+    url: 'https://melvynx.github.io/VueJSTools',
   },
   {
     id: 2,
