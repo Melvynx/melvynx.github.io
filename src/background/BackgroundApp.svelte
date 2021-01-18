@@ -35,4 +35,12 @@
     justify-content: center;
     height: 100%;
   }
+
+  @media only screen and (max-width: 768px) {
+    .full-width-container {
+      width: auto;
+      height: auto;
+      position: relative;
+    }
+  }
 </style>

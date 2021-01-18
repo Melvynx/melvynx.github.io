@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -1444,8 +1444,8 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(/*text*/ ctx[0]);
-    			attr_dev(p, "class", p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1315eb6"));
-    			add_location(p, file$2, 31, 4, 728);
+    			attr_dev(p, "class", p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1rpgcem"));
+    			add_location(p, file$2, 31, 4, 680);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1454,7 +1454,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			if (dirty & /*text*/ 1) set_data_dev(t, /*text*/ ctx[0]);
 
-    			if (dirty & /*className*/ 2 && p_class_value !== (p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1315eb6"))) {
+    			if (dirty & /*className*/ 2 && p_class_value !== (p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1rpgcem"))) {
     				attr_dev(p, "class", p_class_value);
     			}
     		},
@@ -1555,8 +1555,8 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			p = element("p");
-    			attr_dev(p, "class", "svelte-1315eb6");
-    			add_location(p, file$2, 27, 8, 673);
+    			attr_dev(p, "class", "svelte-1rpgcem");
+    			add_location(p, file$2, 27, 8, 625);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1598,8 +1598,8 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			t = text(t_value);
-    			attr_dev(p, "class", p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1315eb6"));
-    			add_location(p, file$2, 21, 8, 517);
+    			attr_dev(p, "class", p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1rpgcem"));
+    			add_location(p, file$2, 21, 8, 469);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -1614,7 +1614,7 @@ var app = (function () {
     			ctx = new_ctx;
     			if (dirty & /*splitedText*/ 8 && t_value !== (t_value = /*mytext*/ ctx[5] + "")) set_data_dev(t, t_value);
 
-    			if (dirty & /*className*/ 2 && p_class_value !== (p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1315eb6"))) {
+    			if (dirty & /*className*/ 2 && p_class_value !== (p_class_value = "" + (null_to_empty(/*className*/ ctx[1]) + " svelte-1rpgcem"))) {
     				attr_dev(p, "class", p_class_value);
     			}
     		},
@@ -1725,7 +1725,7 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			if (if_block) if_block.c();
-    			set_style(div, "min-height", /*splitedText*/ ctx[3].length * 32 + "px");
+    			attr_dev(div, "class", "svelte-1rpgcem");
     			add_location(div, file$2, 17, 0, 349);
     		},
     		l: function claim(nodes) {
@@ -1747,10 +1747,6 @@ var app = (function () {
     					transition_in(if_block, 1);
     					if_block.m(div, null);
     				}
-    			}
-
-    			if (dirty & /*splitedText*/ 8) {
-    				set_style(div, "min-height", /*splitedText*/ ctx[3].length * 32 + "px");
     			}
     		},
     		i: function intro(local) {
@@ -2421,9 +2417,9 @@ var app = (function () {
     			t1 = space();
     			div0 = element("div");
     			if (default_slot) default_slot.c();
-    			attr_dev(div0, "class", "centred-child svelte-pawpxz");
+    			attr_dev(div0, "class", "centred-child svelte-l4i8cw");
     			add_location(div0, file$5, 14, 2, 375);
-    			attr_dev(div1, "class", "full-width-container svelte-pawpxz");
+    			attr_dev(div1, "class", "full-width-container svelte-l4i8cw");
     			add_location(div1, file$5, 8, 0, 211);
     		},
     		l: function claim(nodes) {
@@ -2551,35 +2547,80 @@ var app = (function () {
     const file$6 = "src/github-page/GithubPageCard.svelte";
 
     function create_fragment$6(ctx) {
-    	let div;
+    	let div1;
+    	let a;
+    	let div0;
+    	let img;
+    	let img_src_value;
+    	let t0;
     	let h2;
-    	let t_value = /*page*/ ctx[0].title + "";
-    	let t;
+    	let t1_value = /*page*/ ctx[0].title + "";
+    	let t1;
+    	let t2;
+    	let p;
+    	let t3_value = /*page*/ ctx[0].description + "";
+    	let t3;
+    	let a_href_value;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
+    			div1 = element("div");
+    			a = element("a");
+    			div0 = element("div");
+    			img = element("img");
+    			t0 = space();
     			h2 = element("h2");
-    			t = text(t_value);
-    			add_location(h2, file$6, 10, 2, 159);
-    			attr_dev(div, "class", "svelte-hbhp5o");
-    			add_location(div, file$6, 9, 0, 151);
+    			t1 = text(t1_value);
+    			t2 = space();
+    			p = element("p");
+    			t3 = text(t3_value);
+    			if (img.src !== (img_src_value = /*page*/ ctx[0].image)) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "githubpage card img");
+    			attr_dev(img, "class", "svelte-10emrz8");
+    			add_location(img, file$6, 13, 6, 267);
+    			attr_dev(div0, "class", "img-wrapper svelte-10emrz8");
+    			add_location(div0, file$6, 12, 4, 235);
+    			attr_dev(h2, "class", "svelte-10emrz8");
+    			add_location(h2, file$6, 15, 4, 333);
+    			attr_dev(p, "class", "svelte-10emrz8");
+    			add_location(p, file$6, 16, 4, 359);
+    			attr_dev(a, "href", a_href_value = /*page*/ ctx[0].url);
+    			attr_dev(a, "class", "svelte-10emrz8");
+    			add_location(a, file$6, 11, 2, 211);
+    			attr_dev(div1, "class", "card-wrapper svelte-10emrz8");
+    			add_location(div1, file$6, 10, 0, 182);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, h2);
-    			append_dev(h2, t);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, a);
+    			append_dev(a, div0);
+    			append_dev(div0, img);
+    			append_dev(a, t0);
+    			append_dev(a, h2);
+    			append_dev(h2, t1);
+    			append_dev(a, t2);
+    			append_dev(a, p);
+    			append_dev(p, t3);
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*page*/ 1 && t_value !== (t_value = /*page*/ ctx[0].title + "")) set_data_dev(t, t_value);
+    			if (dirty & /*page*/ 1 && img.src !== (img_src_value = /*page*/ ctx[0].image)) {
+    				attr_dev(img, "src", img_src_value);
+    			}
+
+    			if (dirty & /*page*/ 1 && t1_value !== (t1_value = /*page*/ ctx[0].title + "")) set_data_dev(t1, t1_value);
+    			if (dirty & /*page*/ 1 && t3_value !== (t3_value = /*page*/ ctx[0].description + "")) set_data_dev(t3, t3_value);
+
+    			if (dirty & /*page*/ 1 && a_href_value !== (a_href_value = /*page*/ ctx[0].url)) {
+    				attr_dev(a, "href", a_href_value);
+    			}
     		},
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div1);
     		}
     	};
 
@@ -2602,7 +2643,8 @@ var app = (function () {
     		id: 0,
     		title: "title",
     		description: "default description",
-    		image: "images/snakouz.png"
+    		image: "images/snakouz.png",
+    		url: "https://google.com"
     	} } = $$props;
 
     	const writable_props = ["page"];
@@ -2657,20 +2699,28 @@ var app = (function () {
       {
         id: 1,
         title: 'Tools VueJS',
-        description:
-          'Small VueJS application that includes a timer, a number generator and other stuff.',
+        description: 'Small VueJS application that includes a timer and other stuff.',
         image: 'images/tools-vuejs.png',
+        url: 'https://melvynx.github.io/vuejstools',
       },
       {
         id: 2,
         title: 'Snakouz',
-        description: 'Pure JSS / HTML Snake!',
+        description: 'Snake made in pure JSS / CSS in order to learn the canvas.',
         image: 'images/snakouz.png',
+        url: 'https://melvynx.github.io/SnakouzJS',
+      },
+      {
+        id: 3,
+        title: 'Note VueJS',
+        description: 'Note application made in VueJS to learn how to use a Framework.',
+        image: 'images/notesvuejs.png',
+        url: 'https://melvynx.github.io/NotesVueApp',
       },
     ];
 
-    /* src/App.svelte generated by Svelte v3.31.2 */
-    const file$7 = "src/App.svelte";
+    /* src/github-page/GithubPageCards.svelte generated by Svelte v3.31.2 */
+    const file$7 = "src/github-page/GithubPageCards.svelte";
 
     function get_each_context$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -2678,7 +2728,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (16:6) {#each githubpages as page}
+    // (7:2) {#each githubpages as page}
     function create_each_block$1(ctx) {
     	let githubpagecard;
     	let current;
@@ -2715,29 +2765,16 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(16:6) {#each githubpages as page}",
+    		source: "(7:2) {#each githubpages as page}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (10:2) <BackgroundApp>
-    function create_default_slot(ctx) {
-    	let div0;
-    	let melvynxlogo;
-    	let t0;
-    	let writtingeffect;
-    	let t1;
-    	let div1;
+    function create_fragment$7(ctx) {
+    	let div;
     	let current;
-    	melvynxlogo = new MelvynxLogoAnim({ $$inline: true });
-
-    	writtingeffect = new WrittingEffect({
-    			props: { text: mainText },
-    			$$inline: true
-    		});
-
     	let each_value = githubpages;
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -2752,37 +2789,28 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div0 = element("div");
-    			create_component(melvynxlogo.$$.fragment);
-    			t0 = space();
-    			create_component(writtingeffect.$$.fragment);
-    			t1 = space();
-    			div1 = element("div");
+    			div = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "logo-container svelte-xbli3g");
-    			add_location(div0, file$7, 10, 4, 382);
-    			attr_dev(div1, "class", "github-pages-container svelte-xbli3g");
-    			add_location(div1, file$7, 14, 4, 487);
+    			attr_dev(div, "class", "github-pages-container svelte-1e078ur");
+    			add_location(div, file$7, 5, 0, 125);
+    		},
+    		l: function claim(nodes) {
+    			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div0, anchor);
-    			mount_component(melvynxlogo, div0, null);
-    			insert_dev(target, t0, anchor);
-    			mount_component(writtingeffect, target, anchor);
-    			insert_dev(target, t1, anchor);
-    			insert_dev(target, div1, anchor);
+    			insert_dev(target, div, anchor);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div1, null);
+    				each_blocks[i].m(div, null);
     			}
 
     			current = true;
     		},
-    		p: function update(ctx, dirty) {
+    		p: function update(ctx, [dirty]) {
     			if (dirty & /*githubpages*/ 0) {
     				each_value = githubpages;
     				validate_each_argument(each_value);
@@ -2798,7 +2826,7 @@ var app = (function () {
     						each_blocks[i] = create_each_block$1(child_ctx);
     						each_blocks[i].c();
     						transition_in(each_blocks[i], 1);
-    						each_blocks[i].m(div1, null);
+    						each_blocks[i].m(div, null);
     					}
     				}
 
@@ -2813,8 +2841,6 @@ var app = (function () {
     		},
     		i: function intro(local) {
     			if (current) return;
-    			transition_in(melvynxlogo.$$.fragment, local);
-    			transition_in(writtingeffect.$$.fragment, local);
 
     			for (let i = 0; i < each_value.length; i += 1) {
     				transition_in(each_blocks[i]);
@@ -2823,8 +2849,6 @@ var app = (function () {
     			current = true;
     		},
     		o: function outro(local) {
-    			transition_out(melvynxlogo.$$.fragment, local);
-    			transition_out(writtingeffect.$$.fragment, local);
     			each_blocks = each_blocks.filter(Boolean);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -2834,13 +2858,111 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div0);
+    			if (detaching) detach_dev(div);
+    			destroy_each(each_blocks, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_fragment$7.name,
+    		type: "component",
+    		source: "",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    function instance$7($$self, $$props, $$invalidate) {
+    	let { $$slots: slots = {}, $$scope } = $$props;
+    	validate_slots("GithubPageCards", slots, []);
+    	const writable_props = [];
+
+    	Object.keys($$props).forEach(key => {
+    		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<GithubPageCards> was created with unknown prop '${key}'`);
+    	});
+
+    	$$self.$capture_state = () => ({ githubpages, GithubPageCard });
+    	return [];
+    }
+
+    class GithubPageCards extends SvelteComponentDev {
+    	constructor(options) {
+    		super(options);
+    		init(this, options, instance$7, create_fragment$7, safe_not_equal, {});
+
+    		dispatch_dev("SvelteRegisterComponent", {
+    			component: this,
+    			tagName: "GithubPageCards",
+    			options,
+    			id: create_fragment$7.name
+    		});
+    	}
+    }
+
+    /* src/App.svelte generated by Svelte v3.31.2 */
+    const file$8 = "src/App.svelte";
+
+    // (11:2) <BackgroundApp>
+    function create_default_slot(ctx) {
+    	let div;
+    	let melvynxlogo;
+    	let t0;
+    	let writtingeffect;
+    	let t1;
+    	let githubpagecards;
+    	let current;
+    	melvynxlogo = new MelvynxLogoAnim({ $$inline: true });
+
+    	writtingeffect = new WrittingEffect({
+    			props: { text: mainText },
+    			$$inline: true
+    		});
+
+    	githubpagecards = new GithubPageCards({ $$inline: true });
+
+    	const block = {
+    		c: function create() {
+    			div = element("div");
+    			create_component(melvynxlogo.$$.fragment);
+    			t0 = space();
+    			create_component(writtingeffect.$$.fragment);
+    			t1 = space();
+    			create_component(githubpagecards.$$.fragment);
+    			attr_dev(div, "class", "logo-container svelte-133xpue");
+    			add_location(div, file$8, 11, 4, 452);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, div, anchor);
+    			mount_component(melvynxlogo, div, null);
+    			insert_dev(target, t0, anchor);
+    			mount_component(writtingeffect, target, anchor);
+    			insert_dev(target, t1, anchor);
+    			mount_component(githubpagecards, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(melvynxlogo.$$.fragment, local);
+    			transition_in(writtingeffect.$$.fragment, local);
+    			transition_in(githubpagecards.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(melvynxlogo.$$.fragment, local);
+    			transition_out(writtingeffect.$$.fragment, local);
+    			transition_out(githubpagecards.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(div);
     			destroy_component(melvynxlogo);
     			if (detaching) detach_dev(t0);
     			destroy_component(writtingeffect, detaching);
     			if (detaching) detach_dev(t1);
-    			if (detaching) detach_dev(div1);
-    			destroy_each(each_blocks, detaching);
+    			destroy_component(githubpagecards, detaching);
     		}
     	};
 
@@ -2848,14 +2970,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(10:2) <BackgroundApp>",
+    		source: "(11:2) <BackgroundApp>",
     		ctx
     	});
 
     	return block;
     }
 
-    function create_fragment$7(ctx) {
+    function create_fragment$8(ctx) {
     	let main;
     	let backgroundapp;
     	let current;
@@ -2872,8 +2994,8 @@ var app = (function () {
     		c: function create() {
     			main = element("main");
     			create_component(backgroundapp.$$.fragment);
-    			attr_dev(main, "class", "app svelte-xbli3g");
-    			add_location(main, file$7, 8, 0, 341);
+    			attr_dev(main, "class", "app svelte-133xpue");
+    			add_location(main, file$8, 9, 0, 411);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2886,7 +3008,7 @@ var app = (function () {
     		p: function update(ctx, [dirty]) {
     			const backgroundapp_changes = {};
 
-    			if (dirty & /*$$scope*/ 8) {
+    			if (dirty & /*$$scope*/ 1) {
     				backgroundapp_changes.$$scope = { dirty, ctx };
     			}
 
@@ -2909,7 +3031,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_fragment$7.name,
+    		id: create_fragment$8.name,
     		type: "component",
     		source: "",
     		ctx
@@ -2918,7 +3040,7 @@ var app = (function () {
     	return block;
     }
 
-    function instance$7($$self, $$props, $$invalidate) {
+    function instance$8($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots("App", slots, []);
     	const writable_props = [];
@@ -2932,6 +3054,7 @@ var app = (function () {
     		WrittingEffect,
     		BackgroundApp,
     		GithubPageCard,
+    		GithubPageCards,
     		mainText,
     		githubpages
     	});
@@ -2942,13 +3065,13 @@ var app = (function () {
     class App extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$7, create_fragment$7, safe_not_equal, {});
+    		init(this, options, instance$8, create_fragment$8, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
     			tagName: "App",
     			options,
-    			id: create_fragment$7.name
+    			id: create_fragment$8.name
     		});
     	}
     }

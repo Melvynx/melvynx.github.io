@@ -9,14 +9,22 @@ export const githubpages = [
   {
     id: 1,
     title: 'Tools VueJS',
-    description:
-      'Small VueJS application that includes a timer, a number generator and other stuff.',
+    description: 'Small VueJS application that includes a timer and other stuff.',
     image: 'images/tools-vuejs.png',
+    url: 'https://melvynx.github.io/vuejstools',
   },
   {
     id: 2,
     title: 'Snakouz',
-    description: 'Pure JSS / HTML Snake!',
+    description: 'Snake made in pure JSS / CSS in order to learn the canvas.',
     image: 'images/snakouz.png',
+    url: 'https://melvynx.github.io/SnakouzJS',
+  },
+  {
+    id: 3,
+    title: 'Note VueJS',
+    description: 'Note application made in VueJS to learn how to use a Framework.',
+    image: 'images/notesvuejs.png',
+    url: 'https://melvynx.github.io/NotesVueApp',
   },
 ];

@@ -3,6 +3,7 @@
   import WrittingEffect from './animation/WrittingEffect.svelte';
   import BackgroundApp from './background/BackgroundApp.svelte';
   import GithubPageCard from './github-page/GithubPageCard.svelte';
+  import GithubPageCards from './github-page/GithubPageCards.svelte';
   import { mainText, githubpages } from './melvynx-data';
 </script>
 
@@ -12,11 +13,7 @@
       <MelvynxLogo />
     </div>
     <WrittingEffect text={mainText} />
-    <div class="github-pages-container">
-      {#each githubpages as page}
-        <GithubPageCard {page} />
-      {/each}
-    </div>
+    <GithubPageCards />
   </BackgroundApp>
 </main>
 
@@ -31,9 +28,5 @@
 
   .logo-container {
     margin: 16px;
-  }
-
-  .github-pages-container {
-    display: flex;
   }
 </style>

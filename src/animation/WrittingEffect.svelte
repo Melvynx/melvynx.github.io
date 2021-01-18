@@ -15,7 +15,7 @@
   });
 </script>
 
-<div style="min-height: {splitedText.length * 32}px">
+<div>
   {#if splitedText.length > 1}
     {#each splitedText as mytext, i (mytext)}
       {#if visible >= i + 1}
@@ -36,5 +36,15 @@
 <style>
   p {
     margin: 4px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    p {
+      margin-bottom: 16px;
+    }
+
+    div {
+      height: auto;
+    }
   }
 </style>
