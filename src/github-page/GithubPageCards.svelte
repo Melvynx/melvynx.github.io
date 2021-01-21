@@ -12,6 +12,9 @@
 <style>
   .github-pages-container {
     display: flex;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   @media only screen and (max-width: 768px) {
@@ -19,6 +22,7 @@
       flex-direction: column;
       width: 100%;
       align-items: center;
+      margin-top: 0;
       padding-bottom: 16px;
     }
   }

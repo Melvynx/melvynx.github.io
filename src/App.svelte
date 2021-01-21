@@ -1,10 +1,8 @@
 <script>
   import MelvynxLogo from './animation/MelvynxLogoAnim.svelte';
-  import WrittingEffect from './animation/WrittingEffect.svelte';
   import BackgroundApp from './background/BackgroundApp.svelte';
-  import GithubPageCard from './github-page/GithubPageCard.svelte';
   import GithubPageCards from './github-page/GithubPageCards.svelte';
-  import { mainText, githubpages } from './melvynx-data';
+  import { mainText } from './melvynx-data';
 </script>
 
 <main class="app">
@@ -12,7 +10,7 @@
     <div class="logo-container">
       <MelvynxLogo />
     </div>
-    <WrittingEffect text={mainText} />
+    <p>{mainText}</p>
     <GithubPageCards />
   </BackgroundApp>
 </main>

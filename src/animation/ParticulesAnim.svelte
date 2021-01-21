@@ -72,7 +72,7 @@
     draw() {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-      ctx.fillStyle = '#485460';
+      ctx.fillStyle = '#2f3542';
       ctx.fill();
     }
     // update place of particules
