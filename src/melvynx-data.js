@@ -15,10 +15,11 @@ export const githubpages = [
   },
   {
     id: 2,
-    title: 'Snakouz',
-    description: 'Snake made in pure JSS / CSS in order to learn the canvas.',
-    image: 'images/snakouz.png',
-    url: 'https://melvynx.github.io/SnakouzJS',
+    title: 'react-clear-carousel',
+    description:
+      'Simple react carousel easy to integrate, he is very light and use 0 dependency.',
+    image: 'images/react-clear-carousel.png',
+    url: 'https://melvynx.github.io/react-clear-carousel',
   },
   {
     id: 3,
@@ -34,5 +35,12 @@ export const githubpages = [
       'Application to learn React that includes a base convertor and other stuff.',
     image: 'images/vonqey.png',
     url: 'https://melvynx.github.io/ReactTools',
+  },
+  {
+    id: 5,
+    title: 'Snakouz',
+    description: 'Snake made in pure JSS / CSS in order to learn the canvas.',
+    image: 'images/snakouz.png',
+    url: 'https://melvynx.github.io/SnakouzJS',
   },
 ];

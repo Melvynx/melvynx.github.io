@@ -25,7 +25,7 @@
     border-radius: 2px;
     margin: 8px;
     cursor: pointer;
-    max-width: 236px;
+    max-width: 256px;
   }
 
   .card-wrapper:hover {
@@ -44,7 +44,7 @@
   }
   img {
     width: 100%;
-    max-width: 236px;
+    max-width: 256px;
   }
 
   p {
